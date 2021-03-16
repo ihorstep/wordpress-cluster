@@ -5,25 +5,25 @@ stack:
     tagSetting: bl_tag
     optimization: true
     options:
-      - ls_addon: true
-        wp_protect: true
+      - ls-addon: true
+        wp-protect: true
         waf: true
   - nodeType: litespeedphp
     tagSetting: cp_tag
     optimization: true
     options:
-      - ls_addon: true
-        wp_protect: true
+      - ls-addon: true
+        wp-protect: true
         waf: true
   - nodeType: nginx
     tagSetting: bl_tag
     options:
-      - ls_addon: false
+      - ls-addon: false
   - nodeType: nginxphp
     tagSetting: cp_tag
     optimization: true
     options:
-      - ls_addon: false
+      - ls-addon: false
   - nodeType: mariadb
     tagSetting: sqldb_tag
     options:
