@@ -21,6 +21,7 @@ stack:
       - ls-addon: false
   - nodeType: nginxphp
     tagSetting: cp_tag
+    nodeGroup: cp
     optimization: true
     options:
       - ls-addon: false
